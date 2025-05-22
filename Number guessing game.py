@@ -1,5 +1,6 @@
 # Number guessing game
 import random as r
+import time
 
 print("-"*10+"wellcom to game"+"-"*10)
 while True:
@@ -24,6 +25,7 @@ while True:
         print('-'*10)
     elif Choice_number == "2":
         print("Thanks for playing! Goodbye!")
+        time.sleep(2)
         break
     else:
         print("Invalid choice! Please enter 1 or 2.")      
